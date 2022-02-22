@@ -1,0 +1,25 @@
+body {
+  background-image: url(https://getwallpapers.com/wallpaper/full/6/d/0/159037.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.container {
+  align-self: center;
+}
+
+#clock {
+  font-family: "Bungee";
+  font-size: 128px;
+  align-content: center;
+  color: ghostwhite;
+}
+
+.vertical-center {
+  min-height: 100%; /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
